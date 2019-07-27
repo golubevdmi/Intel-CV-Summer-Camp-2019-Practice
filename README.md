@@ -5,7 +5,7 @@
 1. OpenCV v.4.1.0. Modules: dnn
 2. OpenVino.
 
-## Practice 1
+## Practice 1. Filter
 
 ### Main Tasks:
 
@@ -18,7 +18,7 @@ Develop an application to open the original image from a file and save the resul
 2. Develop a filter for random mixing parts of the picture (see the game "tag").
 3. Implement a filter to remove noise using the Gauss method.
 
-## Practice 2
+## Practice 2. Classificator
 
 ### Main tasks:
 
@@ -31,7 +31,7 @@ Develop an application to open the original image from a file and save the resul
 2. Implement output of class names (a list of class names is contained in the file `* .labels`).
 3. Implement the top-3 (top-5, top-10) output of classes proposed by the classifier.
 
-## Practice 3
+## Practice 3. Detector
 
 ### Main tasks:
 
@@ -44,7 +44,7 @@ Develop an application to open the original image from a file and save the resul
 1. Implement recording video with rectangles around objects in a file.
 2. Implement the functions of statistics (how many objects were in the frame, how much time, etc.).
 
-## Practice 4
+## Practice 4. Tracker
 
 ### Main tasks:
 
@@ -54,5 +54,6 @@ Develop an application to open the original image from a file and save the resul
 4. Change the code so that you can detect a subset of classes from all available classes.
 
 ### Additional tasks:
+
 1. Implement the matching of objects independently, using the brute force algorithm, or write your own version of the Hungarian algorithm.
 2. Change the code so that when a neural network detects one object in the video as several objects of different classes, the tracker considers this object as one class.
